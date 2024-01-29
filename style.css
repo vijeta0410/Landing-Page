@@ -1,0 +1,159 @@
+body#landing-page {
+    background-image: url('bluesky.jpg');
+    background-size: cover; /* Adjust as needed */
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Ensures the background stays fixed while scrolling */
+  }
+  
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #42a3af;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+}
+
+header ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.hero {
+    
+    padding: 2rem;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+}
+
+.hero .cta {
+    background-color: #42a3af;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 0.5rem 1rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.features {
+    padding: 2rem;
+}
+
+.features h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.feature-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.testimonials {
+    padding: 2rem;
+}
+
+.testimonials h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.testimonial-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact {
+    padding: 2rem;
+}
+
+.contact h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.contact p {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact form input[type="text"],
+.contact form input[type="email"],
+.contact form textarea {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.contact form input[type="submit"] {
+    background-color: #42a3af;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 0.5rem 1rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: white;
+}
